@@ -17,7 +17,7 @@ public class Genero {
     public int getId() {
         return this.id;
     }
-
+    /* @Copy Github 20221025 */
     public void setId(int id) {
         this.id = id;
     }

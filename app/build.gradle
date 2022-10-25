@@ -6,6 +6,7 @@ plugins {
 repositories {
     mavenCentral()
 }
+/* @Copy Github 20221025 */
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'

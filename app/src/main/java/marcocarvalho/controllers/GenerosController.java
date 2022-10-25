@@ -24,7 +24,7 @@ public class GenerosController {
         model.addAttribute("generos", generosRepo.findAll());
         return "/generos/list";
     }
-
+    /* @Copy Github 20221025 */
     @RequestMapping("insert")
     public String insert() {
         return "/generos/insert";
@@ -54,7 +54,7 @@ public class GenerosController {
             generosRepo.save(genero.get());
             return "redirect:/generos/list";
     }
-
+    /* @Copy Github 20221025 */
     @RequestMapping("delete/{id}")
     public String delete(Model model, @PathVariable int id) {
         Optional<Genero> genero = generosRepo.findById(id);
